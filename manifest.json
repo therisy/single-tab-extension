@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "SingleTab",
+  "version": "1.0",
+  "action": {
+    "default_popup": "./dist/popup.html"
+  },
+  "options_page": "dist/singlepage.html",
+  "options_ui": {
+    "page": "dist/singlepage.html"
+  },
+  "permissions": [
+    "tabs"
+  ]
+}
